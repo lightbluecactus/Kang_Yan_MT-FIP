@@ -447,8 +447,112 @@ p,a
 	margin-bottom: 100px;
 }
 
+/* start of advertise page */
+#promoAd
+{
+	margin: 100px 60px;
+}
 
+#otherAd
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 100px;
+}
 
-/* validator gradient */
-/*background: rgb(80,96,114);
-background: linear-gradient(0deg, rgba(80,96,114,1) 0%, rgba(191,192,200,1) 24%, rgba(242,237,239,1) 38%, rgba(200,199,204,1) 66%, rgba(128,135,144,1) 100%);*/
+/* start of purchase page */
+
+#purchaseMain
+{
+	margin: 100px 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#orderInfo
+{
+	width: 500px;
+	border-right: solid 1px #b51a1e;
+}
+
+#orderInfo p
+{
+	color: #24292f;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+form
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300px;
+	color: #24292f;
+	font-size: 16px;
+}
+
+input
+{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#phone
+{
+	margin-bottom: 60px;
+}
+
+#map
+{
+	margin-left: 50px;
+}
+
+#submit
+{
+	width: 280px;
+	background-color: #1f1f7f;
+	padding: 15px 30px 15px 30px;
+	margin-top: 60px;
+	border: none;
+	color: #eee8e1;
+	font-size: 18px;
+}
+
+/* start of validator */
+
+#validationContainer
+{
+	width: 1000px;
+	margin: 0 auto;
+	background: rgb(80,96,114);
+	background: linear-gradient(0deg, rgba(80,96,114,1) 0%, rgba(191,192,200,1) 24%, rgba(242,237,239,1) 38%, rgba(200,199,204,1) 66%, rgba(128,135,144,1) 100%);
+	padding-bottom: 150px;
+}
+
+#validationContainer h2
+{
+	color: #24292f;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#validationLogo
+{
+	margin-top: 150px;
+	margin-left: 352px;
+	margin-bottom: 80px;
+}
+
+#ageForm
+{
+	text-align: center;
+}
+
+#ageForm input
+{
+	margin-left: 430px;
+}

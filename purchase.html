@@ -23,45 +23,55 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="#">Product</a></li>
+					<li><a href="product.html">Product</a></li>
 					<li><a href="advertise.html">Advertise</a></li>
-					<li><a href="purchase.html">Shop</a></li>
+					<li><a href="#">Shop</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<main>
-			<section id="shoppingIcon">
-				<h2 class="hidden">SHOPPING ICON</h2>
-				<img src="images/bookmark.jpg" width="30" height="30" alt="bookmark">
-				<img src="images/chart.jpg" width="30" height="30" alt="chart">
+		<main id="purchaseMain">
+
+			<section id="orderInfo">
+				<h2 class="hidden">Order information</h2>
+				<p>Leave an email or phone number for us to contact you.</p>
+
+				<form id="contactForm" action="form.php" method="post">
+					<label for="email">Email:</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your email">
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter your phone number">
+
+				</form>
+
+				<p>Your order address</p>
+				<form id="addressForm" action="form.php" method="post">
+					<label for="name">Name:</label>
+                    <input type="text" required id="name" size="30" placeholder="Enter your name">
+                    
+                    <label for="address">Address:</label>
+                    <input type="text" required id="address" size="30" placeholder="Enter shipping address">
+
+                    <label for="country">Country:</label>
+                    <input type="text" required id="country" size="15">
+
+                    <label for="province">Province:</label>
+                    <input type="text" required id="province" size="15">
+
+                    <label for="code">Postal Code:</label>
+                    <input type="text" required id="code" size="15">
+
+                    <input type="submit" value="Go to Payment" id="submit">
+
+				</form>
 			</section>
 
-			<section id="promoProduct">
-				<h2 class="hidden">Beer products</h2>
-				<section>
-					<h3 class="hidden">Promo product</h3>
-					<img src="images/product-promo.jpg" width="550" height="550" alt="Promo beer">
-				</section>
-				<section id="productText">
-					<h2>Beer Name</h2>
-					<p> Most people believe that a secretly precise Left Hand Milk Stout falls in love with a Pilsner behind the Full Sail IPA, but they need to remember how barely the smelly Miller goes to sleep.</p>
-					<h3 id="purchaseBut">Purchase</h3>
-				</section>
+			<section id="map">
+				<h2>Find our store</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1687505.9194645903!2d-81.11310221327851!3d43.49765018707415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bea80f4080f5d67!2sMolson%20Coors!5e0!3m2!1szh-TW!2sca!4v1613333033432!5m2!1szh-TW!2sca" width="330" height="330" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</section>
 
-			<section id="otherProduct">
-				<h2 class="hidden">Recommended products</h2>
-				<div>
-					<a href="product.html"><img src="images/product-small.jpg" width="260" height="180" alt="beer product 1"></a>
-				</div>
-				<div>
-					<a href="product.html"><img src="images/product-small.jpg" width="260" height="180" alt="beer product 1"></a>
-				</div>
-				<div>
-					<a href="product.html"><img src="images/product-small.jpg" width="260" height="180" alt="beer product 1"></a>
-				</div>
-			</section>
 		</main>
 
 		<footer id="mainFooter">
@@ -87,9 +97,9 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="#">Product</a></li>
+					<li><a href="product.html">Product</a></li>
 					<li><a href="advertise.html">Advertise</a></li>
-					<li><a href="purchase.html">Shop</a></li>
+					<li><a href="#">Shop</a></li>
 				</ul>
 			</nav>
 		</footer>
