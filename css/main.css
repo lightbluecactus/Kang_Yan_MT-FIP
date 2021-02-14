@@ -292,14 +292,28 @@ p,a
 {
 	width: 550px;
 	height: 270px;
-	background-color: #d4d4d4;
+	background: url('../images/our-team.jpg') no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#ourTeam p
+{
+	text-align: center;
+	color: #eee8e1;
+	font-size: 36px;
+	font-weight: 700px;
+	background-color: rgba(0,0,0,.6);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #teamImg
 {
 	width: 300px;
 	height: 270px;
-	background-color: #d4d4d4;
+	background: url('../images/our-team-right.jpg') no-repeat;
 	margin-left: 30px;
 }
 
@@ -310,26 +324,53 @@ p,a
 	margin-bottom: 50px;
 }
 
-#historyImg
-{
-	width: 300px;
-	height: 270px;
-	background-color: #d4d4d4;
-}
-
 #historyTitle
 {
 	width: 550px;
 	height: 270px;
-	background-color: #d4d4d4;
+	background: url('../images/history.jpg') no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin-left: 30px;
+}
+
+#history p
+{
+	text-align: center;
+	color: #eee8e1;
+	font-size: 36px;
+	font-weight: 700px;
+	background-color: rgba(0,0,0,.6);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#historyImg
+{
+	width: 300px;
+	height: 270px;
+	background: url('../images/history-left.jpg') no-repeat;
 }
 
 #community
 {
 	width: 880px;
 	height: 300px;
-	background-color: #d4d4d4;
+	background: url('../images/community.jpg') no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#community h2
+{
+	text-align: center;
+	color: #eee8e1;
+	font-size: 36px;
+	background-color: rgba(0,0,0,.6);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
