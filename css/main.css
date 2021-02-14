@@ -447,6 +447,22 @@ p,a
 	margin-bottom: 100px;
 }
 
+/* start of advertise page */
+#promoAd
+{
+	margin: 100px 60px;
+}
+
+#otherAd
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 100px;
+}
+
 
 
 /* validator gradient */
