@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 a 
 {
 	text-decoration: none;
@@ -23,19 +26,19 @@ ul
 
 h2
 {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
 	font-weight: 700;
 }
 
 h3
 {
-	font-family: 'Cinzel', serif;
+	font-family: 'Cinzel', 'Times New Roman', serif;
 	font-weight: 600;
 }
 
 p,a
 {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
 	font-weight: 300;
 }
 
